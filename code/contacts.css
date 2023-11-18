@@ -1,0 +1,96 @@
+.contacts{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.contactBody{
+    height:auto;
+    width: 75vw;
+    background-color: #4F4557;
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform .2s;
+
+}
+
+.contactBody span{
+    font-size: 1.8rem;
+    color:coral;
+}
+
+.contactBody p{
+    font-size: 1.5rem;
+    /* color:coral; */
+}
+
+.contactDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    background-color: #6D5D6E;
+    padding: 20px;
+    margin: 20px;border-radius: 15px;
+}
+
+.contactDiv span{
+    font-weight: bold;
+}
+
+.contactBody:hover{
+    transform: scale(1.02);
+    box-shadow: 10px 10px 24px 2px rgba(0,0,0,0.75);
+}
+
+.gifo{
+    width: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emailbutton{
+    width: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+    flex-direction: column;
+}
+
+
+label{
+    padding: 10px;
+    background-color: #4a374b;
+    margin: 20px;
+    width: 250px;
+    height: 80px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.emailbutton button{
+    /* align-self: flex-end; */
+    padding: 10px;
+    width: 80px;
+    background-color: #6D5D6E;
+    border-radius: 5px;
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+}
+
+

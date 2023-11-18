@@ -1,0 +1,120 @@
+.certifications{
+    height: 120vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: trans 0.80s;
+}
+
+.certificationBody{
+    height: auto;
+    width: 75vw;
+    background-color: #4F4557;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: transform .2s;
+}
+
+.certificationBody h1{
+    align-self: flex-start;
+}
+
+.certificationBody:hover{
+    /* animation: glow 3s infinite; */
+    transform: scale(1.02);
+    box-shadow: 10px 10px 24px 2px rgba(0,0,0,0.75);
+}
+
+.certificateDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    background-color:#6D5D6E;
+    border-radius: 12px;
+    height: 160px;
+    width: 100%;
+    color: azure;
+}
+
+.certiData{
+    text-align: justify;
+    width: 60%;
+    padding: 20px;
+    height: 100px;
+    background-color: #4f455760;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+
+.certiData span{
+    font-weight: bolder;
+}
+
+.certiImage{
+    position: relative;
+    width:40%;
+    margin:auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.certiImage img{
+    /* position: relative; */
+    height: 140px;
+    width: 200px;
+    border-radius: 8px;
+    transition: transform .2s;
+    box-shadow: 10px 10px 39px -5px rgba(0,0,0,0.39);
+
+}
+
+.certiImage .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip  */
+
+    position: absolute;
+    z-index: 1;
+    top: 140px;
+    left: 50px;
+    margin-left: 160px;
+  }
+  
+  
+
+.certiImage img:hover{
+    transform: scale(1.35);
+}
+
+.certiImage:hover .tooltiptext{
+    visibility: visible;
+}
+
+
+  
+ 
+
+
+
+

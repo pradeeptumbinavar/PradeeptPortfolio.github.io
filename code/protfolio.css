@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
+@keyframes trans {
+    from{
+        opacity: 0.6;
+        transform: rotateX(-12deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+  
+    }
+    
+  }
+
+@font-face {
+    font-family:urbanist;
+    src: url(font\Urbanist-VariableFont_wght.ttf);
+}
+
+body{
+    background-color:#393646;
+    color: azure;
+    font-family: urbanist,sans-serif;
+    
+}
+.about{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: trans 0.80s;
+}
+
+
+
+.aboutBody{
+    height: 75vh;
+    width: 80vw;
+    padding: 5%;
+    margin: 5%;
+    background-color: #4F4557;
+    border-radius: 15px;
+    transition: transform .5s;
+}
+
+
+
+
+
+.aboutdiv1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutText{
+    
+    width: 55%;
+    text-align: justify;
+    /* overflow: auto; */
+    font-size: 1.5rem;
+    
+}
+
+.marquee{
+    margin-left: -60px;
+    overflow: visible;
+}
+
+.atwo{
+    font-weight: bold;
+}
+
+.aboutText h1{
+    font-size: 2.5rem;
+    /* scroll-behavior: smooth; */
+}
+
+.aone{
+    color: lightcoral;
+
+}
+
+.axs{
+    font-size: 2.2rem;
+}
+
+.aboutImage img{
+    height: 400px;
+    width: auto;
+    border-radius: 8px;
+    box-shadow: 10px 10px 39px -5px rgba(0,0,0,0.39);
+}
+
+
+
+.aboutButtons{
+    /* margin-left: 40%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;   
+}
+
+
+.aboutButtons a{
+    text-decoration: none;
+    height: 50px;
+    width: auto;
+    color: white;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background:#6D5D6E;
+    z-index: 1;
+    font-size: 1rem;
+}
+
+
+.btn a:hover{
+    background-color:#8a7a8b;
+    box-shadow: 10px 10px 39px -5px rgba(53, 52, 52, 0.39);
+    transform: scale(1.05);
+  }
+
+
+
+  @keyframes glow {
+    0% {
+        box-shadow: 0 0 0 rgba(223, 223, 255, 0.2);
+      }
+      50% {
+        box-shadow: 0 0 55px 10px rgba(223, 223, 255, 0.2);
+      }
+      100% {
+        box-shadow: 0 0 0 rgba(223, 223, 255, 0.2);
+      }
+  }
+
+  .aboutBody:hover{
+    /* animation: glow 3s infinite; */
+    transform: scale(1.02);
+    box-shadow: 10px 10px 24px 2px rgba(0,0,0,0.75);
+
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
